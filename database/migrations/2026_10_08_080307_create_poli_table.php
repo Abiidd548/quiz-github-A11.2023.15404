@@ -10,18 +10,20 @@ return new class extends Migration
      * Run the migrations.
      */
     public function up(): void
-    {
-        Schema::create('daftar_poli', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
-        });
-    }
+{
+    Schema::create('poli', function (Blueprint $table) {
+        $table->id();
+        $table->string('nama_poli', 25);
+        $table->text('keterangan')->nullable();
+        $table->timestamps();
+    });
+}
 
     /**
      * Reverse the migrations.
      */
     public function down(): void
     {
-        Schema::dropIfExists('daftar_poli');
+        Schema::dropIfExists('poli');
     }
 };
