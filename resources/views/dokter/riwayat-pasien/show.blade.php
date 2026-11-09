@@ -1,4 +1,4 @@
-<x-layouts.app title="Detail Riwayat Pasien">
+<x-partials.layouts.app title="Detail Riwayat Pasien">
 
     {{-- Header --}}
     <div class="flex items-center gap-3 mb-6">
@@ -112,4 +112,4 @@
 
     </div>
 
-</x-layouts.app>
+</x-partials.layouts.app>

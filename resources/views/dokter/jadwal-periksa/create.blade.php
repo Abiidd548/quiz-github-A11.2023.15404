@@ -1,4 +1,4 @@
-<x-layouts.app title="Tambah Jadwal Periksa">
+<x-partials.layouts.app title="Tambah Jadwal Periksa">
 
     {{-- Header --}}
     <div class="flex items-center gap-3 mb-6">
@@ -100,4 +100,4 @@
         </div>
     </div>
 
-</x-layouts.app>
+</x-partials.layouts.app>

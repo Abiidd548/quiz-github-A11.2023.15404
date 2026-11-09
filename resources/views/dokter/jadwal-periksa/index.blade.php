@@ -1,4 +1,4 @@
-<x-layouts.app title="Jadwal Periksa">
+<x-partials.layouts.app title="Jadwal Periksa">
 
     {{-- Header --}}
     <div class="flex items-center justify-between mb-6">
@@ -115,4 +115,4 @@
         }, 2000);
     </script>
 
-</x-layouts.app>
+</x-partials.layouts.app>
